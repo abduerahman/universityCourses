@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+        margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , 'sans-serif';
+    box-sizing: border-box;
+
+}
+body{
+    background-color: #0096AA;
+}
+.container{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 2em;
+}
+.shape{
+    display: flex;
+    text-align: center;
+    min-height: 120px;
+    width:120px;
+    border-radius: 100%;
+    box-shadow: 0 5px 25px rgba(1, 1, 1, 50%);
+    background-color: #1F51FF;
+    margin: auto;
+    margin-right:6em;
+    transition: 2s ease;
+    flex-wrap: wrap;
+}
+div p{
+    margin: auto;
+    letter-spacing: 1px;
+}
+div span{
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+h1{
+    width: 100%;
+    margin-left: 40%;
+    margin-top:2em;
+    margin-bottom: 2em;
+    letter-spacing: 5px;
+}
+#CSC203:hover ~ .dataStrc{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+}
+#CSC206:hover ~ .systemsoftware{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+}
+#MAT201:hover ~ .linear2{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+}
+#MAT103:hover ~ .disc{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+}
+#CSC201:hover ~ .fundmentaII{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+}
+#UNI102:hover ~ .persentation{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+}
+.shape:hover{
+    background-color: #0096FF;
+    filter: brightness(150%); 
+    visibility: visible ;
+}
+.other{
+   display: flex;
+   visibility: hidden;
+}
+
+#MAT100:hover ~.linear1{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+}
+#LAN101:hover ~ .english100{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+} 
+
+#MAT201:hover ~ .linear2{
+    background-color: #0096FF;
+    visibility: visible;
+    filter: brightness(150%);
+}
+
+#MAT102:hover ~ .calcu1{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#UN101:hover ~ .critical{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+.box{
+    width: 20%;
+    width:100%;
+    border: 1px solid black;
+}
+#CSC301:hover ~.op{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#CNE304:hover ~ .network{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#SWE201:hover ~ .is{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#CNE203:hover ~ .comm{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%); 
+}
+#CSC205:hover ~ .algorithms{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);   
+}
+#MAT202:hover ~ .caculII{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#MAT201:hover ~ .probability{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#CSC102:hover ~ .fundmentaI{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#CSC101:hover ~ .intro{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#CNE202:hover ~ .logic{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
+#PHY101:hover ~ .phys{
+    visibility: visible;
+    background-color: #0096FF;
+    filter: brightness(150%);
+}
