@@ -173,3 +173,13 @@ h1{
     background-color: #0096FF;
     filter: brightness(150%);
 }
+
+
+@media(max-width: 1342px){
+    .container{
+        padding-left: 5px;
+    }
+    .shape{
+        margin-right: 1em;
+    }
+}
